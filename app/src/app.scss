@@ -1,0 +1,94 @@
+.weather-app {
+  max-width: 350px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  position: relative;
+
+  &::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7)
+  }
+
+}
+
+.ui-card{
+  max-width: 345px;
+  color: #fff;
+
+  &>div{
+    position: relative;
+    z-index: 2;
+  }
+}
+
+span[class^='MuiSwitch-bar']{
+  background-color: #fff;
+}
+
+.card-header{
+  padding: 0 5px;
+
+  span{
+    color: #fff;
+  }
+
+}
+
+.card-header div[class^='MuiCardHeader-action']{
+  margin: 0;
+}
+
+
+.card-content{
+  min-height: 140px;
+
+  small{
+    position: relative;
+    top: -1rem;
+  }
+}
+
+
+.current-weather{
+  width: 100%;
+  align-items: center;
+}
+
+
+.current-weather .current-temp{
+  font-size: 40px;
+}
+
+.current-weather .wi{
+  font-size: 60px;
+}
+
+.weekly-weather-list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weekly-weather-list > div:nth-child(n+4){
+  margin-top:15px; 
+}
+
+.weekly-weather-list > div i{
+  font-size: 25px;
+  display: block;
+  margin-bottom:5px;
+}
+
+.card-actions{
+
+  a> img {
+    box-shadow: #fff;
+  }
+}
