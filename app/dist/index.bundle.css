@@ -16,7 +16,8 @@
     background: rgba(0, 0, 0, 0.7); }
 
 .ui-card {
-  max-width: 345px;
+  max-width: 600px;
+  width: 100%;
   color: #fff; }
   .ui-card > div {
     position: relative;
@@ -62,8 +63,10 @@ span[class^='MuiSwitch-bar'] {
   display: block;
   margin-bottom: 5px; }
 
-.card-actions a > img {
-  box-shadow: #fff; }
+.card-actions {
+  justify-content: space-around; }
+  .card-actions a > img {
+    box-shadow: #fff; }
 
 /*!
  *  Weather Icons 2.0

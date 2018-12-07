@@ -4,7 +4,7 @@
 Plugin Name: Naxos Weather React App 
 Plugin URI:  http://link to your plugin homepage
 Description: Yahoo Weather React app for Wordpress
-Version:     1.1
+Version:     1.1.2
 Author:      Giannis Dallas
 Author URI:  https://giannisdallas.com
 License:     GPL2 etc

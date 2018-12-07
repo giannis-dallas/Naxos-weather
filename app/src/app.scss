@@ -20,7 +20,8 @@
 }
 
 .ui-card{
-  max-width: 345px;
+  max-width: 600px;
+  width: 100%;
   color: #fff;
 
   &>div{
@@ -88,8 +89,13 @@ span[class^='MuiSwitch-bar']{
 }
 
 .card-actions{
+  justify-content: space-around;
 
   a> img {
     box-shadow: #fff;
+  }
+
+  > span:last-child{
+
   }
 }
