@@ -139,7 +139,7 @@ const WeeklyWeatherBody = (props) => {
     <section>
       <Grid container spacing={12}  className="weekly-weather-list">
         {props.weeklyWeather.map( (date,idx) =>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={6} sm={4}>
           <i className={"wi wi-yahoo-"+date.code}></i> {date.day+' '+props.convertFC(date.low)}-{props.convertFC(date.high)}          
           </Grid>          
       )}        

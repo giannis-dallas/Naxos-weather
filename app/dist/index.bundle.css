@@ -27,7 +27,10 @@ span[class^='MuiSwitch-bar'] {
   background-color: #fff; }
 
 .card-header {
-  padding: 0 5px; }
+  padding: 0 5px;
+  justify-content: space-around; }
+  .card-header .MuiCardHeader-content {
+    flex: none; }
   .card-header span {
     color: #fff; }
 
