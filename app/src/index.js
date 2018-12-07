@@ -19,7 +19,7 @@ ReactDOM.render(
 <JssProvider jss={jss} generateClassName={generateClassName}>
     <App />
 </JssProvider>
-    , document.getElementById('reactApptest'));
+    , document.getElementById('NaxosreactApp'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
